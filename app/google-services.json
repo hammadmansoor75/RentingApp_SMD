@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "121679362365",
+    "project_id": "smd-chatapp",
+    "storage_bucket": "smd-chatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121679362365:android:9cfe2703514a6a0596ad54",
+        "android_client_info": {
+          "package_name": "com.hammadmansoor.smd_chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbNzWvS7AumRMvmql8C2ErlBNNpF053SA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
