@@ -58,12 +58,23 @@ public class CreateProfile extends AppCompatActivity {
                 cityAdapter.notifyDataSetChanged();
             }
 
+
+
             @Override
             public void onNothingSelected(AdapterView<?> parentView) {
 
             }
         });
 
+        citySpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
+                String selectedCity = (String) citySpinner.getSelectedItem();
+            }
 
+            @Override
+            public void onNothingSelected(AdapterView<?> parentView) {
+            }
+        });
     }
 }
