@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SMD-ChatApp</string>
+    <string name="title_activity_logo_screen">LogoScreen</string>
 </resources>
