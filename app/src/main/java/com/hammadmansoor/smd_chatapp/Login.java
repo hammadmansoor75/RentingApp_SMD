@@ -49,6 +49,7 @@ public class Login extends AppCompatActivity {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 Toast.makeText(Login.this,"Logged In Successfully",Toast.LENGTH_LONG).show();
+                                startActivity(new Intent(Login.this,Home.class));
                             }
                         })
                         .addOnCanceledListener(new OnCanceledListener() {
